@@ -15,6 +15,3 @@ define( 'NA_OUTAOUAIS_URI', get_template_directory_uri() );
 
 require_once NA_OUTAOUAIS_DIR . '/inc/setup.php';
 require_once NA_OUTAOUAIS_DIR . '/inc/enqueue.php';
-
-require_once NA_OUTAOUAIS_DIR . '/post-types/meetings.php';
-require_once NA_OUTAOUAIS_DIR . '/inc/meta-boxes.php';

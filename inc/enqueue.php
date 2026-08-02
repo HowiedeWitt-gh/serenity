@@ -72,10 +72,3 @@ if ( is_front_page() ) {
 	);
 
 }
-
-wp_enqueue_style(
-	'na-outaouais-meetings',
-	NA_OUTAOUAIS_URI . '/assets/css/meetings.css',
-	array(),
-	NA_OUTAOUAIS_VERSION
-);

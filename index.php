@@ -2,7 +2,7 @@
 /**
  * Main template fallback.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 get_header();

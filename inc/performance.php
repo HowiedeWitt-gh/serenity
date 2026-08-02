@@ -2,7 +2,7 @@
 /**
  * Performance optimizations.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined('ABSPATH') || exit;
@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 /**
  * Enable lazy loading.
  */
-function na_outaouais_lazy_images(
+function serenity_lazy_images(
 	$html
 ){
 
@@ -26,5 +26,5 @@ function na_outaouais_lazy_images(
 
 add_filter(
 	'post_thumbnail_html',
-	'na_outaouais_lazy_images'
+	'serenity_lazy_images'
 );

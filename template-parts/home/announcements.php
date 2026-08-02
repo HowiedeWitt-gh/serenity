@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Latest Announcements',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -36,7 +36,7 @@ href="<?php echo esc_url(
 
 <?php esc_html_e(
 	'View All Announcements',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </a>

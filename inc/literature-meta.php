@@ -2,23 +2,23 @@
 /**
  * Literature metadata.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
 
 
 
-function na_outaouais_add_literature_meta() {
+function serenity_add_literature_meta() {
 
 
 	add_meta_box(
 
 		'literature_resource',
 
-		__( 'Resource Link', 'na-outaouais' ),
+		__( 'Resource Link', 'serenity' ),
 
-		'na_outaouais_render_literature_field',
+		'serenity_render_literature_field',
 
 		'literature',
 
@@ -31,12 +31,12 @@ function na_outaouais_add_literature_meta() {
 
 add_action(
 	'add_meta_boxes',
-	'na_outaouais_add_literature_meta'
+	'serenity_add_literature_meta'
 );
 
 
 
-function na_outaouais_render_literature_field(
+function serenity_render_literature_field(
 	$post
 ) {
 
@@ -60,7 +60,7 @@ wp_nonce_field(
 
 <?php esc_html_e(
 	'PDF or external resource URL',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </label>
@@ -80,7 +80,7 @@ style="width:100%;"
 
 
 
-function na_outaouais_save_literature_meta(
+function serenity_save_literature_meta(
 	$post_id
 ) {
 
@@ -138,5 +138,5 @@ update_post_meta(
 
 add_action(
 	'save_post_literature',
-	'na_outaouais_save_literature_meta'
+	'serenity_save_literature_meta'
 );

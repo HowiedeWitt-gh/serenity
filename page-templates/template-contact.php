@@ -2,7 +2,7 @@
 /**
  * Template Name: Contact Page
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 get_header();

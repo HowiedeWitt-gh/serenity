@@ -2,7 +2,7 @@
 /**
  * Template Name: About NA
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 get_header();

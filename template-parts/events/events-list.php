@@ -2,7 +2,7 @@
 /**
  * Events list wrapper.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;

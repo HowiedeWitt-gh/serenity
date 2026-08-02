@@ -67,6 +67,30 @@ font-size:2rem;
 }
 
 
+.menu-toggle-icon {
+
+display:grid;
+
+gap:4px;
+
+width:24px;
+
+}
+
+
+.menu-toggle-icon span {
+
+display:block;
+
+height:2px;
+
+background:currentColor;
+
+border-radius:2px;
+
+}
+
+
 
 .language-switcher {
 

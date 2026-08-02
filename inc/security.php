@@ -2,7 +2,7 @@
 /**
  * Security adjustments.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined('ABSPATH') || exit;

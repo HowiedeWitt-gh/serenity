@@ -4,8 +4,8 @@
 
 printf(
 	esc_html__(
-		'© %1$s NA Outaouais. All rights reserved.',
-		'na-outaouais'
+		'ï¿½ %1$s NA Outaouais. All rights reserved.',
+		'serenity'
 	),
 	date_i18n('Y')
 );

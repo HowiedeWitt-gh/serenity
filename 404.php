@@ -19,7 +19,7 @@ get_header();
 
 <?php esc_html_e(
 'Page Not Found',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </h2>
@@ -29,7 +29,7 @@ get_header();
 
 <?php esc_html_e(
 'The page you are looking for does not exist.',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </p>
@@ -42,7 +42,7 @@ home_url('/')
 
 <?php esc_html_e(
 'Return Home',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </a>

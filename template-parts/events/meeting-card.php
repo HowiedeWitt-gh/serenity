@@ -2,7 +2,7 @@
 /**
  * Meeting card.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 ?>
@@ -42,7 +42,7 @@ href="<?php the_permalink(); ?>">
 
 <?php esc_html_e(
 	'Meeting Details',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </a>

@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Recovery Literature',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -36,7 +36,7 @@ href="<?php echo esc_url(
 
 <?php esc_html_e(
 	'View Library',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </a>

@@ -2,7 +2,7 @@
 /**
  * Events Manager integration.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Check Events Manager availability.
  */
-function na_outaouais_events_manager_active() {
+function serenity_events_manager_active() {
 
 	return class_exists( 'EM_Events' );
 
@@ -21,10 +21,10 @@ function na_outaouais_events_manager_active() {
 /**
  * Add Events Manager compatibility.
  */
-function na_outaouais_events_manager_setup() {
+function serenity_events_manager_setup() {
 
 
-	if ( ! na_outaouais_events_manager_active() ) {
+	if ( ! serenity_events_manager_active() ) {
 
 		return;
 
@@ -33,7 +33,7 @@ function na_outaouais_events_manager_setup() {
 
 	add_filter(
 		'em_event_output_placeholder',
-		'na_outaouais_event_placeholder',
+		'serenity_event_placeholder',
 		10,
 		3
 	);
@@ -43,7 +43,7 @@ function na_outaouais_events_manager_setup() {
 
 add_action(
 	'after_setup_theme',
-	'na_outaouais_events_manager_setup'
+	'serenity_events_manager_setup'
 );
 
 
@@ -51,7 +51,7 @@ add_action(
 /**
  * Custom event placeholders.
  */
-function na_outaouais_event_placeholder(
+function serenity_event_placeholder(
 	$output,
 	$placeholder,
 	$EM_Event

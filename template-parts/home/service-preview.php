@@ -15,7 +15,7 @@
 
 <?php esc_html_e(
 	'Serving the Outaouais Community',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -30,7 +30,7 @@
 
 <?php esc_html_e(
 	'Public Information',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h3>
@@ -40,7 +40,7 @@
 
 <?php esc_html_e(
 	'Sharing information about recovery and NA.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>
@@ -55,7 +55,7 @@
 
 <?php esc_html_e(
 	'Hospitals & Institutions',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h3>
@@ -65,7 +65,7 @@
 
 <?php esc_html_e(
 	'Bringing the message to those seeking help.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>

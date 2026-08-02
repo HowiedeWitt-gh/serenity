@@ -2,7 +2,7 @@
 /**
  * Announcement Custom Post Type.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register announcements.
  */
-function na_outaouais_register_announcements() {
+function serenity_register_announcements() {
 
 
 	register_post_type(
@@ -21,13 +21,13 @@ function na_outaouais_register_announcements() {
 			'labels' => array(
 
 				'name' =>
-				__( 'Announcements', 'na-outaouais' ),
+				__( 'Announcements', 'serenity' ),
 
 				'singular_name' =>
-				__( 'Announcement', 'na-outaouais' ),
+				__( 'Announcement', 'serenity' ),
 
 				'add_new_item' =>
-				__( 'Add Announcement', 'na-outaouais' ),
+				__( 'Add Announcement', 'serenity' ),
 
 			),
 
@@ -64,5 +64,5 @@ function na_outaouais_register_announcements() {
 
 add_action(
 	'init',
-	'na_outaouais_register_announcements'
+	'serenity_register_announcements'
 );

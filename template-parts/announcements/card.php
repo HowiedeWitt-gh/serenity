@@ -2,7 +2,7 @@
 /**
  * Announcement card.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 ?>

@@ -1,18 +1,12 @@
 <?php
+/**
+ * Theme constants.
+ *
+ * @package Serenity
+ */
 
-define(
-	'NA_OUTAOUAIS_VERSION',
-	'1.0.0'
-);
+defined( 'ABSPATH' ) || exit;
 
-
-define(
-	'NA_OUTAOUAIS_DIR',
-	get_template_directory()
-);
-
-
-define(
-	'NA_OUTAOUAIS_URI',
-	get_template_directory_uri()
-);
+define( 'SERENITY_VERSION', '1.0.0' );
+define( 'SERENITY_DIR', get_template_directory() );
+define( 'SERENITY_URI', get_template_directory_uri() );

@@ -17,7 +17,7 @@ get_header();
 
 <?php esc_html_e(
 'Welcome',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </h1>
@@ -27,7 +27,7 @@ get_header();
 
 <?php esc_html_e(
 'If you think you may have a problem with drugs, you are welcome here.',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </p>

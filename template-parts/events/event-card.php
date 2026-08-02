@@ -2,7 +2,7 @@
 /**
  * NA event card.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;

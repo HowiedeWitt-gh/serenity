@@ -2,7 +2,7 @@
 /**
  * Service blocks.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Regional Service',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -29,7 +29,7 @@
 
 <?php esc_html_e(
 	'Public Information',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h3>
@@ -39,7 +39,7 @@
 
 <?php esc_html_e(
 	'Helping the community learn about Narcotics Anonymous.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>
@@ -54,7 +54,7 @@
 
 <?php esc_html_e(
 	'Hospitals & Institutions',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h3>
@@ -64,7 +64,7 @@
 
 <?php esc_html_e(
 	'Carrying the message to people who cannot attend meetings.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>
@@ -79,7 +79,7 @@
 
 <?php esc_html_e(
 	'Website Support',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h3>
@@ -89,7 +89,7 @@
 
 <?php esc_html_e(
 	'Supporting online communication and resources.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>

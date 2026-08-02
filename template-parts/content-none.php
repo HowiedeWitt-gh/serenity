@@ -4,7 +4,7 @@
 
 <?php esc_html_e(
 'Nothing found',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </h2>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 'No content is available.',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </p>

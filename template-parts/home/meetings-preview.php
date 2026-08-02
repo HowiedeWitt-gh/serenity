@@ -17,7 +17,7 @@
 
 <?php esc_html_e(
 	'Upcoming Meetings',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -27,7 +27,7 @@
 
 <?php esc_html_e(
 	'Find a meeting near you.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>
@@ -60,7 +60,7 @@ home_url('/events')
 
 <?php esc_html_e(
 	'View All Meetings',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </a>

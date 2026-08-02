@@ -2,7 +2,7 @@
 /**
  * Polylang integration.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register theme strings with Polylang.
  */
-function na_outaouais_register_polylang_strings() {
+function serenity_register_polylang_strings() {
 
 
 	if (
@@ -49,5 +49,5 @@ function na_outaouais_register_polylang_strings() {
 
 add_action(
 	'init',
-	'na_outaouais_register_polylang_strings'
+	'serenity_register_polylang_strings'
 );

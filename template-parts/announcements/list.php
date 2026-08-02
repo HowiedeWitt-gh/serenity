@@ -2,7 +2,7 @@
 /**
  * Announcement list.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 

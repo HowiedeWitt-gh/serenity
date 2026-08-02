@@ -2,7 +2,7 @@
 /**
  * Event details.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Meeting Details',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>

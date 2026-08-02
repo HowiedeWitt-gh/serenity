@@ -12,7 +12,7 @@
 
 <?php esc_html_e(
 	'Need Help?',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </h2>
@@ -22,7 +22,7 @@
 
 <?php esc_html_e(
 	'You are welcome. Find a meeting and connect with people in recovery.',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </p>
@@ -35,7 +35,7 @@ href="<?php echo esc_url(
 
 <?php esc_html_e(
 	'Find a Meeting',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </a>

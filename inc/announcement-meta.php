@@ -2,23 +2,23 @@
 /**
  * Announcement metadata.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
 
 
 
-function na_outaouais_add_announcement_meta() {
+function serenity_add_announcement_meta() {
 
 
 	add_meta_box(
 
 		'announcement_expiry',
 
-		__( 'Announcement Settings', 'na-outaouais' ),
+		__( 'Announcement Settings', 'serenity' ),
 
-		'na_outaouais_render_expiry_field',
+		'serenity_render_expiry_field',
 
 		'announcement',
 
@@ -31,12 +31,12 @@ function na_outaouais_add_announcement_meta() {
 
 add_action(
 	'add_meta_boxes',
-	'na_outaouais_add_announcement_meta'
+	'serenity_add_announcement_meta'
 );
 
 
 
-function na_outaouais_render_expiry_field(
+function serenity_render_expiry_field(
 	$post
 ) {
 
@@ -61,7 +61,7 @@ wp_nonce_field(
 
 <?php esc_html_e(
 	'Expiration date',
-	'na-outaouais'
+	'serenity'
 ); ?>
 
 </label>
@@ -81,7 +81,7 @@ style="width:100%;"
 
 
 
-function na_outaouais_save_announcement_meta(
+function serenity_save_announcement_meta(
 	$post_id
 ) {
 
@@ -143,5 +143,5 @@ update_post_meta(
 
 add_action(
 	'save_post_announcement',
-	'na_outaouais_save_announcement_meta'
+	'serenity_save_announcement_meta'
 );

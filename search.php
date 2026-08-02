@@ -12,7 +12,7 @@ get_header();
 
 <?php esc_html_e(
 'Search Results',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </h1>
@@ -64,7 +64,7 @@ else:
 
 <?php esc_html_e(
 'No results found.',
-'na-outaouais'
+'serenity'
 ); ?>
 
 </p>

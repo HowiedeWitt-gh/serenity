@@ -2,29 +2,24 @@
 /**
  * Theme setup.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
 
-
 /**
- * Setup theme features.
+ * Set up theme features, translations, menus, and image sizes.
  */
-function na_outaouais_setup() {
-
+function serenity_setup() {
 	load_theme_textdomain(
-		'na-outaouais',
-		NA_OUTAOUAIS_DIR . '/languages'
+		'serenity',
+		SERENITY_DIR . '/languages'
 	);
 
-	add_theme_support(
-		'title-tag'
-	);
-
-	add_theme_support(
-		'post-thumbnails'
-	);
+	add_theme_support( 'title-tag' );
+	add_theme_support( 'post-thumbnails' );
+	add_theme_support( 'editor-styles' );
+	add_theme_support( 'responsive-embeds' );
 
 	add_theme_support(
 		'custom-logo',
@@ -49,48 +44,28 @@ function na_outaouais_setup() {
 		)
 	);
 
-	add_theme_support(
-		'editor-styles'
-	);
-
-	add_theme_support(
-		'responsive-embeds'
-	);
-
-
 	register_nav_menus(
 		array(
-			'primary' => __( 'Primary Menu', 'na-outaouais' ),
-			'footer'  => __( 'Footer Menu', 'na-outaouais' ),
+			'primary' => __( 'Primary Menu', 'serenity' ),
+			'footer'  => __( 'Footer Menu', 'serenity' ),
 		)
 	);
 
-
-	add_image_size(
-		'na-featured',
-		1200,
-		700,
-		true
-	);
+	add_image_size( 'serenity-featured', 1200, 700, true );
+	add_image_size( 'serenity-card', 600, 400, true );
+	add_image_size( 'serenity-hero', 1600, 800, true );
 }
-
-
-add_action(
-	'after_setup_theme',
-	'na_outaouais_setup'
-);
-
+add_action( 'after_setup_theme', 'serenity_setup' );
 
 /**
  * Register widget areas.
  */
-function na_outaouais_widgets_init() {
-
+function serenity_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => __( 'Sidebar', 'na-outaouais' ),
+			'name'          => __( 'Sidebar', 'serenity' ),
 			'id'            => 'sidebar',
-			'description'   => __( 'Main sidebar.', 'na-outaouais' ),
+			'description'   => __( 'Main sidebar.', 'serenity' ),
 			'before_widget' => '<section class="widget">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -98,84 +73,4 @@ function na_outaouais_widgets_init() {
 		)
 	);
 }
-
-
-add_action(
-	'widgets_init',
-	'na_outaouais_widgets_init'
-);
-
-/**
- * Accessibility support.
- */
-add_theme_support(
-	'custom-logo'
-);
-
-
-add_theme_support(
-	'html5',
-	array(
-		'search-form',
-		'comment-form',
-		'comment-list',
-		'gallery',
-		'caption',
-		'style',
-		'script',
-	)
-);
-
-
-add_theme_support(
-	'title-tag'
-);
-
-/**
- * Register menus.
- */
-function na_outaouais_register_menus() {
-
-
-	register_nav_menus(
-
-		array(
-
-			'primary' =>
-			__( 'Primary Menu', 'na-outaouais' ),
-
-
-			'footer' =>
-			__( 'Footer Menu', 'na-outaouais' ),
-
-		)
-
-	);
-
-}
-
-
-add_action(
-	'after_setup_theme',
-	'na_outaouais_register_menus'
-);
-
-add_theme_support(
-	'post-thumbnails'
-);
-
-
-add_image_size(
-	'na-card',
-	600,
-	400,
-	true
-);
-
-
-add_image_size(
-	'na-hero',
-	1600,
-	800,
-	true
-);
+add_action( 'widgets_init', 'serenity_widgets_init' );

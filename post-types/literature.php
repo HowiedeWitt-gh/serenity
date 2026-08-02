@@ -2,7 +2,7 @@
 /**
  * Literature Custom Post Type.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register literature.
  */
-function na_outaouais_register_literature() {
+function serenity_register_literature() {
 
 
 	register_post_type(
@@ -21,13 +21,13 @@ function na_outaouais_register_literature() {
 			'labels' => array(
 
 				'name' =>
-				__( 'Literature', 'na-outaouais' ),
+				__( 'Literature', 'serenity' ),
 
 				'singular_name' =>
-				__( 'Literature Item', 'na-outaouais' ),
+				__( 'Literature Item', 'serenity' ),
 
 				'add_new_item' =>
-				__( 'Add Literature Item', 'na-outaouais' ),
+				__( 'Add Literature Item', 'serenity' ),
 
 			),
 
@@ -60,7 +60,7 @@ function na_outaouais_register_literature() {
 		array(
 
 			'label' =>
-			__( 'Categories', 'na-outaouais' ),
+			__( 'Categories', 'serenity' ),
 
 			'hierarchical' => true,
 
@@ -74,5 +74,5 @@ function na_outaouais_register_literature() {
 
 add_action(
 	'init',
-	'na_outaouais_register_literature'
+	'serenity_register_literature'
 );

@@ -2,7 +2,7 @@
 /**
  * Events Manager list override.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 ?>

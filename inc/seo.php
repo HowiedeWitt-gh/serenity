@@ -2,7 +2,7 @@
 /**
  * SEO helpers.
  *
- * @package NA_Outaouais
+ * @package Serenity
  */
 
 defined('ABSPATH') || exit;
@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 /**
  * Add basic site description fallback.
  */
-function na_outaouais_meta_description() {
+function serenity_meta_description() {
 
 
 	if (
@@ -51,5 +51,5 @@ function na_outaouais_meta_description() {
 
 add_action(
 	'wp_head',
-	'na_outaouais_meta_description'
+	'serenity_meta_description'
 );

@@ -1,0 +1,28 @@
+.literature-card {
+
+background:white;
+
+padding:2rem;
+
+border-radius:12px;
+
+margin-bottom:1.5rem;
+
+box-shadow:
+0 5px 18px rgba(0,0,0,.08);
+
+}
+
+
+.literature-card h3 {
+
+margin-top:0;
+
+}
+
+
+.literature-card a {
+
+text-decoration:none;
+
+}

@@ -86,3 +86,10 @@ wp_enqueue_style(
 	array(),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-literature',
+	NA_OUTAOUAIS_URI . '/assets/css/literature.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);

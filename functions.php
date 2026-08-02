@@ -20,3 +20,6 @@ require_once NA_OUTAOUAIS_DIR . '/inc/integrations/events-manager.php';
 
 require_once NA_OUTAOUAIS_DIR . '/post-types/announcements.php';
 require_once NA_OUTAOUAIS_DIR . '/inc/announcement-meta.php';
+
+require_once NA_OUTAOUAIS_DIR . '/post-types/literature.php';
+require_once NA_OUTAOUAIS_DIR . '/inc/literature-meta.php';

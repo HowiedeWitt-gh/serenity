@@ -1,0 +1,9 @@
+{
+	"name": "na-outaouais/theme",
+	"description": "NA Outaouais WordPress Theme",
+	"type": "wordpress-theme",
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"squizlabs/php_codesniffer": "^3.8"
+	}
+}

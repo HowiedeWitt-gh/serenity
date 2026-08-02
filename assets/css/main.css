@@ -1,0 +1,41 @@
+:root {
+	--na-primary: #005a87;
+	--na-secondary: #4a90a4;
+	--na-accent: #e9b949;
+	--na-background: #f7f9fb;
+	--na-text: #1f2937;
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+body {
+	margin: 0;
+	background: var(--na-background);
+	color: var(--na-text);
+	font-family:
+		Inter,
+		system-ui,
+		sans-serif;
+	line-height: 1.6;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+a {
+	color: var(--na-primary);
+}
+
+
+.container {
+	width: min(1200px, 90%);
+	margin-inline: auto;
+}

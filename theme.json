@@ -1,0 +1,64 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.8/theme.json",
+	"version": 3,
+
+	"settings": {
+		"appearanceTools": true,
+
+		"layout": {
+			"contentSize": "1200px",
+			"wideSize": "1440px"
+		},
+
+		"color": {
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "#005A87",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#4A90A4",
+					"name": "Secondary"
+				},
+				{
+					"slug": "accent",
+					"color": "#E9B949",
+					"name": "Accent"
+				},
+				{
+					"slug": "background",
+					"color": "#F7F9FB",
+					"name": "Background"
+				},
+				{
+					"slug": "text",
+					"color": "#1F2937",
+					"name": "Text"
+				}
+			]
+		},
+
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Inter, system-ui, sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				}
+			]
+		}
+	},
+
+	"styles": {
+		"color": {
+			"text": "var:preset|color|text",
+			"background": "var:preset|color|background"
+		},
+
+		"typography": {
+			"fontFamily": "var:preset|font-family|inter"
+		}
+	}
+}

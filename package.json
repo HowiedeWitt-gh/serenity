@@ -1,0 +1,12 @@
+{
+	"name": "na-outaouais-theme",
+	"version": "0.1.0",
+	"scripts": {
+		"lint:js": "eslint assets/js",
+		"lint:css": "stylelint assets/css/**/*.css"
+	},
+	"devDependencies": {
+		"eslint": "^9.0.0",
+		"stylelint": "^16.0.0"
+	}
+}

@@ -72,3 +72,10 @@ if ( is_front_page() ) {
 	);
 
 }
+
+wp_enqueue_style(
+	'na-outaouais-events-home',
+	NA_OUTAOUAIS_URI . '/assets/css/events-home.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);

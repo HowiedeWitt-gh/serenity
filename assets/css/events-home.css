@@ -1,0 +1,58 @@
+.homepage-events {
+
+margin:2rem 0;
+
+}
+
+
+.na-event-card {
+
+background:white;
+
+padding:1.5rem;
+
+border-radius:12px;
+
+margin-bottom:1rem;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.08);
+
+}
+
+
+.na-event-card h3 {
+
+margin-top:0;
+
+}
+
+
+.na-event-card a {
+
+text-decoration:none;
+
+color:
+var(--na-primary);
+
+}
+
+
+.event-date,
+.event-time {
+
+margin-top:.5rem;
+
+}
+
+
+.event-location {
+
+margin-top:1rem;
+
+font-weight:600;
+
+color:
+var(--na-secondary);
+
+}

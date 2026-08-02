@@ -1,39 +1,54 @@
-(function(){
+document.addEventListener(
+	"DOMContentLoaded",
+	function(){
 
-'use strict';
-
-
-const button =
-document.querySelector('.menu-toggle');
-
-
-const menu =
-document.querySelector('.main-navigation');
+		const button =
+		document.querySelector(
+			".menu-toggle"
+		);
 
 
-if(!button || !menu){
-	return;
-}
+		const menu =
+		document.querySelector(
+			".primary-menu"
+		);
 
 
-button.addEventListener(
-'click',
-function(){
+		if(
+			!button ||
+			!menu
+		){
 
-const expanded =
-this.getAttribute('aria-expanded') === 'true';
+			return;
+
+		}
 
 
-this.setAttribute(
-'aria-expanded',
-String(!expanded)
+		button.addEventListener(
+			"click",
+			function(){
+
+
+				const expanded =
+				button.getAttribute(
+					"aria-expanded"
+				) === "true";
+
+
+				button.setAttribute(
+					"aria-expanded",
+					!expanded
+				);
+
+
+				menu.classList.toggle(
+					"is-open"
+				);
+
+
+			}
+		);
+
+
+	}
 );
-
-
-menu.style.display =
-expanded ? 'none':'block';
-
-
-});
-
-})();

@@ -73,16 +73,46 @@ the_custom_logo();
 
 
 
-<nav class="site-navigation">
+<nav class="site-navigation"
+aria-label="<?php esc_attr_e(
+'Primary Navigation',
+'na-outaouais'
+); ?>">
+
+
+<button
+class="menu-toggle"
+aria-controls="primary-menu"
+aria-expanded="false">
+
+<span class="screen-reader-text">
+
+<?php esc_html_e(
+'Open menu',
+'na-outaouais'
+); ?>
+
+</span>
+
+
+?
+
+</button>
+
 
 <?php
 
 wp_nav_menu(
+
 array(
 
 'theme_location'
 =>
 'primary',
+
+'menu_id'
+=>
+'primary-menu',
 
 'menu_class'
 =>
@@ -93,6 +123,16 @@ array(
 );
 
 ?>
+
+
+<?php
+
+get_template_part(
+	'template-parts/navigation/language-switcher'
+);
+
+?>
+
 
 </nav>
 

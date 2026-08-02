@@ -4,25 +4,26 @@
 <div class="container">
 
 
-<p>
-
 <?php
 
-echo esc_html(
-get_bloginfo('name')
+wp_nav_menu(
+
+array(
+
+'theme_location'
+=>
+'footer',
+
+)
+
 );
 
 ?>
 
-</p>
-
 
 <p>
 
-<?php esc_html_e(
-'Recovery through unity and fellowship.',
-'na-outaouais'
-); ?>
+<?php bloginfo('name'); ?>
 
 </p>
 
@@ -31,11 +32,3 @@ get_bloginfo('name')
 
 
 </footer>
-
-
-<?php wp_footer(); ?>
-
-
-</body>
-
-</html>

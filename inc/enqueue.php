@@ -38,21 +38,6 @@ function na_outaouais_enqueue_assets() {
 	);
 
 
-	wp_enqueue_style(
-		'na-outaouais-navigation',
-		NA_OUTAOUAIS_URI . '/assets/css/navigation.css',
-		array(),
-		NA_OUTAOUAIS_VERSION
-	);
-
-
-	wp_enqueue_script(
-		'na-outaouais-navigation',
-		NA_OUTAOUAIS_URI . '/assets/js/navigation.js',
-		array(),
-		NA_OUTAOUAIS_VERSION,
-		true
-	);
 
 }
 
@@ -162,6 +147,23 @@ wp_enqueue_style(
 wp_enqueue_style(
 	'na-outaouais-home-modern',
 	NA_OUTAOUAIS_URI . '/assets/css/homepage-modern.css',
+	array(
+		'na-outaouais-components'
+	),
+	NA_OUTAOUAIS_VERSION
+);
+
+wp_enqueue_script(
+	'na-outaouais-navigation',
+	NA_OUTAOUAIS_URI . '/assets/js/navigation.js',
+	array(),
+	NA_OUTAOUAIS_VERSION,
+	true
+);
+
+wp_enqueue_style(
+	'na-outaouais-navigation',
+	NA_OUTAOUAIS_URI . '/assets/css/navigation.css',
 	array(
 		'na-outaouais-components'
 	),

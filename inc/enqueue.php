@@ -61,3 +61,14 @@ add_action(
 	'wp_enqueue_scripts',
 	'na_outaouais_enqueue_assets'
 );
+
+if ( is_front_page() ) {
+
+	wp_enqueue_style(
+		'na-outaouais-homepage',
+		NA_OUTAOUAIS_URI . '/assets/css/homepage.css',
+		array(),
+		NA_OUTAOUAIS_VERSION
+	);
+
+}

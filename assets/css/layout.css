@@ -1,0 +1,25 @@
+.site-header {
+	background: white;
+	border-bottom: 1px solid #ddd;
+}
+
+
+.header-inner {
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:1rem 0;
+}
+
+
+.site-footer {
+	margin-top:4rem;
+	padding:2rem 0;
+	background:#005a87;
+	color:white;
+}
+
+
+.site-main {
+	padding:3rem 0;
+}

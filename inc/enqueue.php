@@ -9,7 +9,7 @@ defined( 'ABSPATH' ) || exit;
 
 
 /**
- * Load CSS and JS.
+ * Load theme assets.
  */
 function na_outaouais_enqueue_assets() {
 
@@ -30,9 +30,25 @@ function na_outaouais_enqueue_assets() {
 	);
 
 
+	wp_enqueue_style(
+		'na-outaouais-layout',
+		NA_OUTAOUAIS_URI . '/assets/css/layout.css',
+		array(),
+		NA_OUTAOUAIS_VERSION
+	);
+
+
+	wp_enqueue_style(
+		'na-outaouais-navigation',
+		NA_OUTAOUAIS_URI . '/assets/css/navigation.css',
+		array(),
+		NA_OUTAOUAIS_VERSION
+	);
+
+
 	wp_enqueue_script(
-		'na-outaouais-theme',
-		NA_OUTAOUAIS_URI . '/assets/js/theme.js',
+		'na-outaouais-navigation',
+		NA_OUTAOUAIS_URI . '/assets/js/navigation.js',
 		array(),
 		NA_OUTAOUAIS_VERSION,
 		true

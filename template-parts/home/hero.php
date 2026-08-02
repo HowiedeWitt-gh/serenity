@@ -1,43 +1,47 @@
-<section class="hero">
+<?php
+/**
+ * Homepage hero.
+ *
+ * @package NA_Outaouais
+ */
 
-<div class="container hero-content">
+?>
+
+<section class="hero homepage-hero">
+
+
+<div class="container">
+
+
+<div class="hero-content">
 
 
 <h1>
 
-<?php
-
-esc_html_e(
-	'Welcome to Narcotics Anonymous Outaouais',
+<?php esc_html_e(
+	'A New Way of Life Begins Here',
 	'na-outaouais'
-);
-
-?>
+); ?>
 
 </h1>
 
 
 <p>
 
-<?php
-
-esc_html_e(
-	'Recovery, support, and fellowship for anyone seeking a new way of life.',
+<?php esc_html_e(
+	'Narcotics Anonymous offers recovery, support, and fellowship for anyone seeking freedom from addiction.',
 	'na-outaouais'
-);
-
-?>
+); ?>
 
 </p>
 
 
 <div class="hero-actions">
 
+
 <a class="button"
 href="<?php echo esc_url(
-	get_permalink(
-		get_page_by_path('meetings')
-	)
+home_url('/events')
 ); ?>">
 
 <?php esc_html_e(
@@ -50,7 +54,7 @@ href="<?php echo esc_url(
 
 <a class="button secondary"
 href="<?php echo esc_url(
-	home_url('/contact')
+home_url('/contact')
 ); ?>">
 
 <?php esc_html_e(
@@ -65,5 +69,9 @@ href="<?php echo esc_url(
 
 
 </div>
+
+
+</div>
+
 
 </section>

@@ -20,12 +20,7 @@ get_template_part(
 
 
 get_template_part(
-	'template-parts/home/quick-links'
-);
-
-
-get_template_part(
-	'template-parts/home/welcome'
+	'template-parts/home/newcomer-banner'
 );
 
 
@@ -45,9 +40,13 @@ get_template_part(
 
 
 get_template_part(
-	'template-parts/home/contact-cta'
+	'template-parts/home/service-preview'
 );
 
+
+get_template_part(
+	'template-parts/home/contact-cta'
+);
 
 ?>
 

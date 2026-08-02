@@ -1,0 +1,63 @@
+.homepage-section {
+
+padding:
+var(--space-lg) 0;
+
+}
+
+
+
+.homepage-hero {
+
+padding:
+6rem 0;
+
+}
+
+
+
+.hero-content {
+
+max-width:
+750px;
+
+}
+
+
+
+.hero-content p {
+
+font-size:
+1.25rem;
+
+}
+
+
+
+.newcomer-banner {
+
+background:
+var(--na-light);
+
+padding:
+3rem 0;
+
+text-align:center;
+
+}
+
+
+
+.secondary {
+
+background:white;
+
+}
+
+
+.service-preview {
+
+padding:
+4rem 0;
+
+}

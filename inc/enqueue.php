@@ -79,3 +79,10 @@ wp_enqueue_style(
 	array(),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-announcements',
+	NA_OUTAOUAIS_URI . '/assets/css/announcements.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);

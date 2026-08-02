@@ -1,0 +1,31 @@
+.announcement-card {
+
+background:white;
+
+padding:1.5rem;
+
+border-radius:12px;
+
+margin-bottom:1.5rem;
+
+box-shadow:
+0 4px 15px rgba(0,0,0,.08);
+
+}
+
+
+.announcement-card h3 {
+
+margin-top:0;
+
+}
+
+
+.announcement-card a {
+
+color:
+var(--na-primary);
+
+text-decoration:none;
+
+}

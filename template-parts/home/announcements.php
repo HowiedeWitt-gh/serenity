@@ -1,3 +1,10 @@
+<?php
+/**
+ * Homepage announcements.
+ */
+
+?>
+
 <section class="announcements">
 
 <div class="container">
@@ -6,21 +13,33 @@
 <h2>
 
 <?php esc_html_e(
-'Announcements',
-'na-outaouais'
+	'Latest Announcements',
+	'na-outaouais'
 ); ?>
 
 </h2>
 
 
-<p>
+<?php
+
+get_template_part(
+	'template-parts/announcements/list'
+);
+
+?>
+
+
+<a class="button"
+href="<?php echo esc_url(
+	home_url('/announcements')
+); ?>">
 
 <?php esc_html_e(
-'Community updates will appear here.',
-'na-outaouais'
+	'View All Announcements',
+	'na-outaouais'
 ); ?>
 
-</p>
+</a>
 
 
 </div>

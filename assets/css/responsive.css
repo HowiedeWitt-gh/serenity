@@ -1,0 +1,29 @@
+@media(max-width:768px){
+
+
+.container {
+
+width:
+92%;
+
+}
+
+
+.hero-actions {
+
+flex-direction:
+column;
+
+}
+
+
+.button {
+
+width:
+100%;
+
+}
+
+
+
+}

@@ -121,3 +121,40 @@ wp_enqueue_style(
 	array(),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-variables',
+	NA_OUTAOUAIS_URI . '/assets/css/variables.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);
+
+
+wp_enqueue_style(
+	'na-outaouais-typography',
+	NA_OUTAOUAIS_URI . '/assets/css/typography.css',
+	array(
+		'na-outaouais-variables'
+	),
+	NA_OUTAOUAIS_VERSION
+);
+
+
+wp_enqueue_style(
+	'na-outaouais-components',
+	NA_OUTAOUAIS_URI . '/assets/css/components.css',
+	array(
+		'na-outaouais-variables'
+	),
+	NA_OUTAOUAIS_VERSION
+);
+
+
+wp_enqueue_style(
+	'na-outaouais-responsive',
+	NA_OUTAOUAIS_URI . '/assets/css/responsive.css',
+	array(
+		'na-outaouais-components'
+	),
+	NA_OUTAOUAIS_VERSION
+);

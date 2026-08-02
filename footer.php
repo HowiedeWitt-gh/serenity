@@ -1,35 +1,40 @@
-<?php
-/**
- * Footer template.
- *
- * @package NA_Outaouais
- */
-
-?>
-
-</main>
-
-
 <footer class="site-footer">
+
 
 <div class="container">
 
 
+<p>
+
 <?php
 
-get_template_part(
-	'template-parts/footer/site-info'
+echo esc_html(
+get_bloginfo('name')
 );
 
 ?>
 
+</p>
+
+
+<p>
+
+<?php esc_html_e(
+'Recovery through unity and fellowship.',
+'na-outaouais'
+); ?>
+
+</p>
+
 
 </div>
+
 
 </footer>
 
 
 <?php wp_footer(); ?>
+
 
 </body>
 

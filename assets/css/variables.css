@@ -1,0 +1,57 @@
+:root {
+
+	/* NA Inspired Colors */
+
+	--na-primary:
+		#005a87;
+
+	--na-secondary:
+		#4a90a4;
+
+	--na-accent:
+		#e9b949;
+
+	--na-dark:
+		#1d2a33;
+
+	--na-light:
+		#f5f7f8;
+
+
+	/* Layout */
+
+	--container-width:
+		1200px;
+
+
+	/* Spacing */
+
+	--space-xs:
+		0.5rem;
+
+	--space-sm:
+		1rem;
+
+	--space-md:
+		2rem;
+
+	--space-lg:
+		4rem;
+
+
+	/* Radius */
+
+	--radius:
+		12px;
+
+
+	/* Shadows */
+
+	--shadow:
+
+	0 8px 25px
+	rgba(
+	0,0,0,.08
+	);
+
+}

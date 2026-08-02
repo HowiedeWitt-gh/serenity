@@ -4,33 +4,51 @@ get_header();
 
 ?>
 
-<section class="container">
+
+<main class="container error-page">
 
 
 <h1>
+
+404
+
+</h1>
+
+
+<h2>
+
 <?php esc_html_e(
-'Page not found',
+'Page Not Found',
 'na-outaouais'
 ); ?>
-</h1>
+
+</h2>
 
 
 <p>
 
 <?php esc_html_e(
-'Sorry, the page you are looking for does not exist.',
+'The page you are looking for does not exist.',
 'na-outaouais'
 ); ?>
 
 </p>
 
 
-<?php get_search_form(); ?>
+<a class="button"
+href="<?php echo esc_url(
+home_url('/')
+); ?>">
+
+<?php esc_html_e(
+'Return Home',
+'na-outaouais'
+); ?>
+
+</a>
 
 
-</section>
+</main>
 
 
-<?php
-
-get_footer();
+<?php get_footer(); ?>

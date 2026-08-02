@@ -4,62 +4,76 @@ get_header();
 
 ?>
 
-<section class="container">
+
+<main class="container search-page">
 
 
 <h1>
 
-<?php
-
-printf(
-	esc_html__(
-		'Search results for: %s',
-		'na-outaouais'
-	),
-	get_search_query()
-);
-
-?>
+<?php esc_html_e(
+'Search Results',
+'na-outaouais'
+); ?>
 
 </h1>
 
 
+
 <?php
 
+if(have_posts()):
 
-if ( have_posts() ) :
 
-while ( have_posts() ) :
+while(have_posts()):
 
 the_post();
-
-get_template_part(
-	'template-parts/content'
-);
-
-endwhile;
-
-
-the_posts_pagination();
-
-
-else:
-
-get_template_part(
-	'template-parts/content',
-	'none'
-);
-
-
-endif;
 
 
 ?>
 
+<article class="card">
 
-</section>
+
+<h2>
+
+<a href="<?php the_permalink(); ?>">
+
+<?php the_title(); ?>
+
+</a>
+
+</h2>
+
+
+<?php the_excerpt(); ?>
+
+
+</article>
 
 
 <?php
 
-get_footer();
+endwhile;
+
+
+else:
+
+?>
+
+<p>
+
+<?php esc_html_e(
+'No results found.',
+'na-outaouais'
+); ?>
+
+</p>
+
+
+<?php endif; ?>
+
+
+</main>
+
+
+<?php get_footer(); ?>

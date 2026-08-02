@@ -178,3 +178,12 @@ wp_enqueue_style(
 	),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-pages-final',
+	NA_OUTAOUAIS_URI . '/assets/css/pages-final.css',
+	array(
+		'na-outaouais-components'
+	),
+	NA_OUTAOUAIS_VERSION
+);

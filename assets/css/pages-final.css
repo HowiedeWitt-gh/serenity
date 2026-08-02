@@ -1,0 +1,44 @@
+.page-standard,
+.newcomer-page,
+.meetings-page,
+.literature-page,
+.search-page {
+
+padding:
+4rem 0;
+
+}
+
+
+
+.resource-buttons {
+
+display:flex;
+
+gap:1rem;
+
+margin:
+2rem 0;
+
+flex-wrap:wrap;
+
+}
+
+
+
+.error-page {
+
+text-align:center;
+
+padding:
+6rem 0;
+
+}
+
+
+
+.search-page .card {
+
+margin-bottom:1.5rem;
+
+}

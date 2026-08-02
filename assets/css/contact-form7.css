@@ -1,0 +1,61 @@
+.wpcf7-form {
+
+display:flex;
+
+flex-direction:column;
+
+gap:1rem;
+
+}
+
+
+.wpcf7-form input,
+.wpcf7-form textarea,
+.wpcf7-form select {
+
+width:100%;
+
+padding:0.85rem;
+
+border-radius:6px;
+
+border:1px solid #ccc;
+
+font-size:1rem;
+
+}
+
+
+.wpcf7-form textarea {
+
+min-height:160px;
+
+}
+
+
+.wpcf7-submit {
+
+cursor:pointer;
+
+border:none;
+
+background:
+var(--na-primary);
+
+color:white;
+
+padding:
+0.8rem 2rem;
+
+border-radius:6px;
+
+font-weight:600;
+
+}
+
+
+.wpcf7-submit:hover {
+
+opacity:.9;
+
+}

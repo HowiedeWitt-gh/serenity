@@ -25,6 +25,20 @@ defined( 'ABSPATH' ) || exit;
 
 <body <?php body_class(); ?>>
 
+
+<a class="skip-link"
+href="#primary">
+
+<?php esc_html_e(
+	'Skip to content',
+	'na-outaouais'
+); ?>
+
+</a>
+
+
+
+
 <?php wp_body_open(); ?>
 
 

@@ -104,3 +104,29 @@ add_action(
 	'widgets_init',
 	'na_outaouais_widgets_init'
 );
+
+/**
+ * Accessibility support.
+ */
+add_theme_support(
+	'custom-logo'
+);
+
+
+add_theme_support(
+	'html5',
+	array(
+		'search-form',
+		'comment-form',
+		'comment-list',
+		'gallery',
+		'caption',
+		'style',
+		'script',
+	)
+);
+
+
+add_theme_support(
+	'title-tag'
+);

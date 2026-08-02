@@ -107,3 +107,17 @@ wp_enqueue_style(
 	array(),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-contact-form7',
+	NA_OUTAOUAIS_URI . '/assets/css/contact-form7.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);
+
+wp_enqueue_style(
+	'na-outaouais-accessibility',
+	NA_OUTAOUAIS_URI . '/assets/css/accessibility.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);

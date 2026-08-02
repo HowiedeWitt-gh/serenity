@@ -74,6 +74,13 @@ if ( is_front_page() ) {
 }
 
 wp_enqueue_style(
+	'na-outaouais-events',
+	NA_OUTAOUAIS_URI . '/assets/css/events-manager.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);
+
+wp_enqueue_style(
 	'na-outaouais-events-home',
 	NA_OUTAOUAIS_URI . '/assets/css/events-home.css',
 	array(),
@@ -90,6 +97,13 @@ wp_enqueue_style(
 wp_enqueue_style(
 	'na-outaouais-literature',
 	NA_OUTAOUAIS_URI . '/assets/css/literature.css',
+	array(),
+	NA_OUTAOUAIS_VERSION
+);
+
+wp_enqueue_style(
+	'na-outaouais-pages',
+	NA_OUTAOUAIS_URI . '/assets/css/pages.css',
 	array(),
 	NA_OUTAOUAIS_VERSION
 );

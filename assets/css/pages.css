@@ -1,0 +1,56 @@
+.page-contact,
+.service-page {
+
+padding-top:3rem;
+
+}
+
+
+
+.contact-cards,
+.service-grid {
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(250px,1fr)
+);
+
+gap:2rem;
+
+}
+
+
+
+.contact-card,
+.service-card {
+
+background:white;
+
+padding:2rem;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.08);
+
+}
+
+
+
+.help-banner {
+
+margin-top:3rem;
+
+padding:3rem;
+
+background:
+var(--na-primary);
+
+color:white;
+
+border-radius:12px;
+
+}

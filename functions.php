@@ -23,3 +23,5 @@ require_once NA_OUTAOUAIS_DIR . '/inc/announcement-meta.php';
 
 require_once NA_OUTAOUAIS_DIR . '/post-types/literature.php';
 require_once NA_OUTAOUAIS_DIR . '/inc/literature-meta.php';
+
+require_once NA_OUTAOUAIS_DIR . '/inc/integrations/contact-form7.php';

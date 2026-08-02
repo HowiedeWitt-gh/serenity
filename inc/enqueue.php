@@ -169,3 +169,12 @@ wp_enqueue_style(
 	),
 	NA_OUTAOUAIS_VERSION
 );
+
+wp_enqueue_style(
+	'na-outaouais-events-manager',
+	NA_OUTAOUAIS_URI . '/assets/css/events-manager-custom.css',
+	array(
+		'na-outaouais-components'
+	),
+	NA_OUTAOUAIS_VERSION
+);

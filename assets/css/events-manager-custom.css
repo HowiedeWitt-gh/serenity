@@ -1,0 +1,135 @@
+/**
+ * Events Manager styling
+ *
+ * @package NA_Outaouais
+ */
+
+
+/* Main events container */
+
+.em-events-list {
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(280px,1fr)
+);
+
+gap:2rem;
+
+}
+
+
+
+/* Individual meetings */
+
+.em-item {
+
+background:white;
+
+border-radius:
+var(--radius);
+
+box-shadow:
+var(--shadow);
+
+padding:1.5rem;
+
+border:none;
+
+}
+
+
+
+.em-item h2,
+.em-item h3 {
+
+margin-top:0;
+
+color:
+var(--na-primary);
+
+}
+
+
+
+.em-item a {
+
+color:
+var(--na-primary);
+
+text-decoration:none;
+
+font-weight:600;
+
+}
+
+
+
+.em-item-meta {
+
+margin-top:1rem;
+
+font-size:.95rem;
+
+color:#555;
+
+}
+
+
+
+/* Location */
+
+.em-location {
+
+background:
+var(--na-light);
+
+padding:1rem;
+
+border-radius:
+var(--radius);
+
+margin-top:1rem;
+
+}
+
+
+
+/* Calendar */
+
+.em-calendar {
+
+border-radius:
+var(--radius);
+
+overflow:hidden;
+
+}
+
+
+
+.em-calendar td,
+.em-calendar th {
+
+padding:.75rem;
+
+}
+
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+
+.em-events-list {
+
+grid-template-columns:1fr;
+
+}
+
+
+}

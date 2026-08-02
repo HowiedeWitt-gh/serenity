@@ -45,3 +45,9 @@ require_once NA_OUTAOUAIS_DIR . '/inc/literature-meta.php';
 require_once NA_OUTAOUAIS_DIR . '/inc/integrations/contact-form7.php';
 
 require_once NA_OUTAOUAIS_DIR . '/inc/integrations/polylang.php';
+
+require_once NA_OUTAOUAIS_DIR . '/inc/seo.php';
+
+require_once NA_OUTAOUAIS_DIR . '/inc/performance.php';
+
+require_once NA_OUTAOUAIS_DIR . '/inc/security.php';

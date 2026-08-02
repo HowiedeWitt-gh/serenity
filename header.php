@@ -20,6 +20,8 @@ content="width=device-width, initial-scale=1">
 
 <?php wp_head(); ?>
 
+<meta name="theme-color"
+content="#005a87">
 </head>
 
 

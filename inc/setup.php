@@ -159,3 +159,23 @@ add_action(
 	'after_setup_theme',
 	'na_outaouais_register_menus'
 );
+
+add_theme_support(
+	'post-thumbnails'
+);
+
+
+add_image_size(
+	'na-card',
+	600,
+	400,
+	true
+);
+
+
+add_image_size(
+	'na-hero',
+	1600,
+	800,
+	true
+);

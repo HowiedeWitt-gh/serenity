@@ -6,6 +6,14 @@
 
 <?php
 
+get_template_part(
+	'template-parts/schema/organization'
+);
+
+?>
+
+<?php
+
 wp_nav_menu(
 
 array(

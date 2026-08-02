@@ -1,7 +1,12 @@
-/node_modules/
-/vendor/
-*.log
+id="bqg4bm"
 .DS_Store
-.idea/
-.vscode/
+
+node_modules/
+
+*.log
+
+wp-config.php
+
+uploads/
+
 .env

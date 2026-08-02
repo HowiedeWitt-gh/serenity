@@ -4,6 +4,10 @@
  *
  * @package NA_Outaouais
  */
+require_once get_template_directory()
+. '/inc/constants.php';
+
+
 
 defined( 'ABSPATH' ) || exit;
 
@@ -51,3 +55,5 @@ require_once NA_OUTAOUAIS_DIR . '/inc/seo.php';
 require_once NA_OUTAOUAIS_DIR . '/inc/performance.php';
 
 require_once NA_OUTAOUAIS_DIR . '/inc/security.php';
+
+require_once NA_OUTAOUAIS_DIR . '/inc/admin-notices.php';

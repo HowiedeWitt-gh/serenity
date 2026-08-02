@@ -1,15 +1,38 @@
 # NA Outaouais WordPress Theme
 
-Modern accessible WordPress theme for NA Outaouais.
+Modern bilingual WordPress theme built for Narcotics Anonymous Outaouais.
 
-## Requirements
+## Features
 
-- WordPress 6.4+
-- PHP 8.2+
+- Responsive modern design
+- French / English ready
+- Polylang compatible
+- Events Manager compatible
+- Contact Form 7 compatible
+- Announcement system
+- Literature library
+- Accessibility improvements
+
+## Required Plugins
+
+Recommended:
+
+- Events Manager
+- Contact Form 7
+- Polylang
+
+## Installation
+
+1. Download ZIP
+2. WordPress Admin
+3. Appearance ? Themes
+4. Add New ? Upload Theme
+5. Activate
 
 ## Development
 
 Install dependencies:
+
 
 ```bash
 composer install

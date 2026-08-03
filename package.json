@@ -1,6 +1,6 @@
 {
-	"name": "na-outaouais-theme",
-	"version": "0.1.0",
+	"name": "na-serenity-theme",
+	"version": "1.0.0",
 	"scripts": {
 		"lint:js": "eslint assets/js",
 		"lint:css": "stylelint assets/css/**/*.css"

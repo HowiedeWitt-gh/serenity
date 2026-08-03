@@ -2,7 +2,7 @@
 /**
  * Contact information.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Get in Touch',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -29,7 +29,7 @@
 
 <?php esc_html_e(
 	'General Information',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h3>
@@ -39,7 +39,7 @@
 
 <?php esc_html_e(
 	'For questions about NA Outaouais, meetings, or resources, please contact us.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>
@@ -54,7 +54,7 @@
 
 <?php esc_html_e(
 	'Find a Meeting',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h3>
@@ -64,7 +64,7 @@
 
 <?php esc_html_e(
 	'Use our meeting directory to find a group near you.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>

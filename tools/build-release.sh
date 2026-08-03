@@ -1,11 +1,17 @@
 #!/bin/bash
 
-THEME="na-outaouais-theme"
+THEME="na-serenity"
 
-zip -r ${THEME}.zip . \
--x "*.git*" \
--x "node_modules/*" \
--x "*.DS_Store"
+git archive \
+--format=zip \
+--prefix="${THEME}/" \
+--output="${THEME}.zip" \
+HEAD -- . \
+':(exclude).gitignore' \
+':(exclude)composer.json' \
+':(exclude)package.json' \
+':(exclude)phpcs.xml.dist' \
+':(exclude)tools'
 
 echo "Build complete:"
 echo "${THEME}.zip"

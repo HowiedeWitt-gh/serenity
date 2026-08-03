@@ -2,7 +2,7 @@
 /**
  * Performance optimizations.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined('ABSPATH') || exit;
@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 /**
  * Enable lazy loading.
  */
-function serenity_lazy_images(
+function na_serenity_lazy_images(
 	$html
 ){
 
@@ -26,5 +26,5 @@ function serenity_lazy_images(
 
 add_filter(
 	'post_thumbnail_html',
-	'serenity_lazy_images'
+	'na_serenity_lazy_images'
 );

@@ -2,7 +2,7 @@
 /**
  * Announcement card.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>

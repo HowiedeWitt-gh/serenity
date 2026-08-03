@@ -2,7 +2,7 @@
 /**
  * The footer.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 ?>
 </main>

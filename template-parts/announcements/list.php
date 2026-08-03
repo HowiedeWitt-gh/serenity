@@ -2,7 +2,7 @@
 /**
  * Announcement list.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 

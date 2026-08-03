@@ -2,7 +2,7 @@
 /**
  * Template Name: About NA
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 get_header();

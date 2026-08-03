@@ -2,7 +2,7 @@
 /**
  * Homepage hero.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>
@@ -20,7 +20,7 @@
 
 <?php esc_html_e(
 	'A New Way of Life Begins Here',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h1>
@@ -30,7 +30,7 @@
 
 <?php esc_html_e(
 	'Narcotics Anonymous offers recovery, support, and fellowship for anyone seeking freedom from addiction.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>
@@ -46,7 +46,7 @@ home_url('/events')
 
 <?php esc_html_e(
 	'Find a Meeting',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>
@@ -59,7 +59,7 @@ home_url('/contact')
 
 <?php esc_html_e(
 	'Contact Us',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

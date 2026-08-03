@@ -2,7 +2,7 @@
 /**
  * SEO helpers.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined('ABSPATH') || exit;
@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 /**
  * Add basic site description fallback.
  */
-function serenity_meta_description() {
+function na_serenity_meta_description() {
 
 
 	if (
@@ -51,5 +51,5 @@ function serenity_meta_description() {
 
 add_action(
 	'wp_head',
-	'serenity_meta_description'
+	'na_serenity_meta_description'
 );

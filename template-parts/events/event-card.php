@@ -2,7 +2,7 @@
 /**
  * NA event card.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;

@@ -7,7 +7,7 @@
 
 <?php esc_html_e(
 'Need Help?',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h2>
@@ -17,7 +17,7 @@
 
 <?php esc_html_e(
 'Reach out and connect with our community.',
-'serenity'
+'na-serenity'
 ); ?>
 
 </p>
@@ -30,7 +30,7 @@ home_url('/contact')
 
 <?php esc_html_e(
 'Contact',
-'serenity'
+'na-serenity'
 ); ?>
 
 </a>

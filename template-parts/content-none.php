@@ -4,7 +4,7 @@
 
 <?php esc_html_e(
 'Nothing found',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h2>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 'No content is available.',
-'serenity'
+'na-serenity'
 ); ?>
 
 </p>

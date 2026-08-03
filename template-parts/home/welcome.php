@@ -7,7 +7,7 @@
 
 <?php esc_html_e(
 'About Narcotics Anonymous',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h2>
@@ -17,7 +17,7 @@
 
 <?php esc_html_e(
 'NA is a fellowship of people who meet regularly to help each other stay clean and build a new way of life.',
-'serenity'
+'na-serenity'
 ); ?>
 
 </p>

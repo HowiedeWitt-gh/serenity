@@ -2,7 +2,7 @@
 /**
  * Polylang integration.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register theme strings with Polylang.
  */
-function serenity_register_polylang_strings() {
+function na_serenity_register_polylang_strings() {
 
 
 	if (
@@ -49,5 +49,5 @@ function serenity_register_polylang_strings() {
 
 add_action(
 	'init',
-	'serenity_register_polylang_strings'
+	'na_serenity_register_polylang_strings'
 );

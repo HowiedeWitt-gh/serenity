@@ -2,7 +2,7 @@
 /**
  * Security adjustments.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined('ABSPATH') || exit;

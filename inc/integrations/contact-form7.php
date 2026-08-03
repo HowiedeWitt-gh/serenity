@@ -2,7 +2,7 @@
 /**
  * Contact Form 7 integration.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Check Contact Form 7 availability.
  */
-function serenity_cf7_active() {
+function na_serenity_cf7_active() {
 
 	return defined(
 		'WPCF7_VERSION'

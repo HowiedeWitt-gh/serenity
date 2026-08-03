@@ -2,23 +2,23 @@
 /**
  * Literature metadata.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
 
 
 
-function serenity_add_literature_meta() {
+function na_serenity_add_literature_meta() {
 
 
 	add_meta_box(
 
 		'literature_resource',
 
-		__( 'Resource Link', 'serenity' ),
+		__( 'Resource Link', 'na-serenity' ),
 
-		'serenity_render_literature_field',
+		'na_serenity_render_literature_field',
 
 		'literature',
 
@@ -31,12 +31,12 @@ function serenity_add_literature_meta() {
 
 add_action(
 	'add_meta_boxes',
-	'serenity_add_literature_meta'
+	'na_serenity_add_literature_meta'
 );
 
 
 
-function serenity_render_literature_field(
+function na_serenity_render_literature_field(
 	$post
 ) {
 
@@ -60,7 +60,7 @@ wp_nonce_field(
 
 <?php esc_html_e(
 	'PDF or external resource URL',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </label>
@@ -80,7 +80,7 @@ style="width:100%;"
 
 
 
-function serenity_save_literature_meta(
+function na_serenity_save_literature_meta(
 	$post_id
 ) {
 
@@ -138,5 +138,5 @@ update_post_meta(
 
 add_action(
 	'save_post_literature',
-	'serenity_save_literature_meta'
+	'na_serenity_save_literature_meta'
 );

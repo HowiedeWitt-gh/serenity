@@ -2,7 +2,7 @@
 /**
  * Literature Custom Post Type.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register literature.
  */
-function serenity_register_literature() {
+function na_serenity_register_literature() {
 
 
 	register_post_type(
@@ -21,13 +21,13 @@ function serenity_register_literature() {
 			'labels' => array(
 
 				'name' =>
-				__( 'Literature', 'serenity' ),
+				__( 'Literature', 'na-serenity' ),
 
 				'singular_name' =>
-				__( 'Literature Item', 'serenity' ),
+				__( 'Literature Item', 'na-serenity' ),
 
 				'add_new_item' =>
-				__( 'Add Literature Item', 'serenity' ),
+				__( 'Add Literature Item', 'na-serenity' ),
 
 			),
 
@@ -60,7 +60,7 @@ function serenity_register_literature() {
 		array(
 
 			'label' =>
-			__( 'Categories', 'serenity' ),
+			__( 'Categories', 'na-serenity' ),
 
 			'hierarchical' => true,
 
@@ -74,5 +74,5 @@ function serenity_register_literature() {
 
 add_action(
 	'init',
-	'serenity_register_literature'
+	'na_serenity_register_literature'
 );

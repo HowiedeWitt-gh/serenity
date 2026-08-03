@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Recovery Literature',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -36,7 +36,7 @@ href="<?php echo esc_url(
 
 <?php esc_html_e(
 	'View Library',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

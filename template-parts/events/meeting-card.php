@@ -2,7 +2,7 @@
 /**
  * Meeting card.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>
@@ -42,7 +42,7 @@ href="<?php the_permalink(); ?>">
 
 <?php esc_html_e(
 	'Meeting Details',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

@@ -2,7 +2,7 @@
 /**
  * Service blocks.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Regional Service',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -29,7 +29,7 @@
 
 <?php esc_html_e(
 	'Public Information',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h3>
@@ -39,7 +39,7 @@
 
 <?php esc_html_e(
 	'Helping the community learn about Narcotics Anonymous.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>
@@ -54,7 +54,7 @@
 
 <?php esc_html_e(
 	'Hospitals & Institutions',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h3>
@@ -64,7 +64,7 @@
 
 <?php esc_html_e(
 	'Carrying the message to people who cannot attend meetings.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>
@@ -79,7 +79,7 @@
 
 <?php esc_html_e(
 	'Website Support',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h3>
@@ -89,7 +89,7 @@
 
 <?php esc_html_e(
 	'Supporting online communication and resources.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>

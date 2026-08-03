@@ -2,7 +2,7 @@
 /**
  * Template Name: Service Page
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 get_header();

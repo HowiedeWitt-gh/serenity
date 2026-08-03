@@ -2,7 +2,7 @@
 /**
  * Main template fallback.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 get_header();

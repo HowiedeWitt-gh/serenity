@@ -2,7 +2,7 @@
 /**
  * Organization schema.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 $schema = array(

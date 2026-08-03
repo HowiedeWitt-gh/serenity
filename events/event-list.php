@@ -2,7 +2,7 @@
 /**
  * Events Manager list override.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>

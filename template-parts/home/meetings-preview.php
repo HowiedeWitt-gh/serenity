@@ -17,7 +17,7 @@
 
 <?php esc_html_e(
 	'Upcoming Meetings',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -27,7 +27,7 @@
 
 <?php esc_html_e(
 	'Find a meeting near you.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>
@@ -60,7 +60,7 @@ home_url('/events')
 
 <?php esc_html_e(
 	'View All Meetings',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

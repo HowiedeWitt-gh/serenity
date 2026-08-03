@@ -1,4 +1,4 @@
-# NA Outaouais WordPress Theme
+# NA Serenity WordPress Theme
 
 Modern bilingual WordPress theme built for Narcotics Anonymous Outaouais.
 
@@ -24,9 +24,9 @@ Recommended:
 ## Installation
 
 1. Download ZIP
-2. WordPress Admin
-3. Appearance ? Themes
-4. Add New ? Upload Theme
+2. Open WordPress Admin
+3. Go to Appearance → Themes
+4. Select Add New → Upload Theme
 5. Activate
 
 ## Development
@@ -37,3 +37,4 @@ Install dependencies:
 ```bash
 composer install
 npm install
+```

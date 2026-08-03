@@ -17,7 +17,7 @@ get_header();
 
 <?php esc_html_e(
 'Welcome',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h1>
@@ -27,7 +27,7 @@ get_header();
 
 <?php esc_html_e(
 'If you think you may have a problem with drugs, you are welcome here.',
-'serenity'
+'na-serenity'
 ); ?>
 
 </p>

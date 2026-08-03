@@ -47,7 +47,7 @@ rel="noopener">
 
 <?php esc_html_e(
 	'Open Resource',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

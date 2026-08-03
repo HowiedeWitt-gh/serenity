@@ -1,6 +1,6 @@
 {
-	"name": "na-outaouais/theme",
-	"description": "NA Outaouais WordPress Theme",
+	"name": "na-serenity/theme",
+	"description": "NA Serenity WordPress Theme",
 	"type": "wordpress-theme",
 	"require-dev": {
 		"wp-coding-standards/wpcs": "^3.0",

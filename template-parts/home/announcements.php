@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Latest Announcements',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -36,7 +36,7 @@ href="<?php echo esc_url(
 
 <?php esc_html_e(
 	'View All Announcements',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </a>

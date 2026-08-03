@@ -12,14 +12,14 @@ href="#">
 <h2>
 <?php esc_html_e(
 'Meetings',
-'serenity'
+'na-serenity'
 ); ?>
 </h2>
 
 <p>
 <?php esc_html_e(
 'Find a local or online meeting.',
-'serenity'
+'na-serenity'
 ); ?>
 </p>
 
@@ -33,14 +33,14 @@ href="#">
 <h2>
 <?php esc_html_e(
 'Literature',
-'serenity'
+'na-serenity'
 ); ?>
 </h2>
 
 <p>
 <?php esc_html_e(
 'Read recovery resources.',
-'serenity'
+'na-serenity'
 ); ?>
 </p>
 
@@ -54,14 +54,14 @@ href="#">
 <h2>
 <?php esc_html_e(
 'Support',
-'serenity'
+'na-serenity'
 ); ?>
 </h2>
 
 <p>
 <?php esc_html_e(
 'Connect with the community.',
-'serenity'
+'na-serenity'
 ); ?>
 </p>
 

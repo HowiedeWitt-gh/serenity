@@ -2,7 +2,7 @@
 /**
  * Events list wrapper.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;

@@ -2,7 +2,7 @@
 /**
  * The header.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 ?>
 <!doctype html>
@@ -16,7 +16,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<a class="skip-link" href="#primary"><?php esc_html_e( 'Skip to content', 'serenity' ); ?></a>
+<a class="skip-link" href="#primary"><?php esc_html_e( 'Skip to content', 'na-serenity' ); ?></a>
 
 <header class="site-header">
 	<div class="container header-inner">
@@ -28,9 +28,9 @@
 			<?php endif; ?>
 		</div>
 
-		<nav class="site-navigation" aria-label="<?php esc_attr_e( 'Primary Navigation', 'serenity' ); ?>">
+		<nav class="site-navigation" aria-label="<?php esc_attr_e( 'Primary Navigation', 'na-serenity' ); ?>">
 			<button class="menu-toggle" type="button" aria-controls="primary-menu" aria-expanded="false">
-				<span class="screen-reader-text"><?php esc_html_e( 'Open menu', 'serenity' ); ?></span>
+				<span class="screen-reader-text"><?php esc_html_e( 'Open menu', 'na-serenity' ); ?></span>
 				<span class="menu-toggle-icon" aria-hidden="true">
 					<span></span>
 					<span></span>

@@ -2,7 +2,7 @@
 /**
  * Announcement Custom Post Type.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Register announcements.
  */
-function serenity_register_announcements() {
+function na_serenity_register_announcements() {
 
 
 	register_post_type(
@@ -21,13 +21,13 @@ function serenity_register_announcements() {
 			'labels' => array(
 
 				'name' =>
-				__( 'Announcements', 'serenity' ),
+				__( 'Announcements', 'na-serenity' ),
 
 				'singular_name' =>
-				__( 'Announcement', 'serenity' ),
+				__( 'Announcement', 'na-serenity' ),
 
 				'add_new_item' =>
-				__( 'Add Announcement', 'serenity' ),
+				__( 'Add Announcement', 'na-serenity' ),
 
 			),
 
@@ -64,5 +64,5 @@ function serenity_register_announcements() {
 
 add_action(
 	'init',
-	'serenity_register_announcements'
+	'na_serenity_register_announcements'
 );

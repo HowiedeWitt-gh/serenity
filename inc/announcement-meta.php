@@ -2,23 +2,23 @@
 /**
  * Announcement metadata.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
 
 
 
-function serenity_add_announcement_meta() {
+function na_serenity_add_announcement_meta() {
 
 
 	add_meta_box(
 
 		'announcement_expiry',
 
-		__( 'Announcement Settings', 'serenity' ),
+		__( 'Announcement Settings', 'na-serenity' ),
 
-		'serenity_render_expiry_field',
+		'na_serenity_render_expiry_field',
 
 		'announcement',
 
@@ -31,12 +31,12 @@ function serenity_add_announcement_meta() {
 
 add_action(
 	'add_meta_boxes',
-	'serenity_add_announcement_meta'
+	'na_serenity_add_announcement_meta'
 );
 
 
 
-function serenity_render_expiry_field(
+function na_serenity_render_expiry_field(
 	$post
 ) {
 
@@ -61,7 +61,7 @@ wp_nonce_field(
 
 <?php esc_html_e(
 	'Expiration date',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </label>
@@ -81,7 +81,7 @@ style="width:100%;"
 
 
 
-function serenity_save_announcement_meta(
+function na_serenity_save_announcement_meta(
 	$post_id
 ) {
 
@@ -143,5 +143,5 @@ update_post_meta(
 
 add_action(
 	'save_post_announcement',
-	'serenity_save_announcement_meta'
+	'na_serenity_save_announcement_meta'
 );

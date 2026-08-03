@@ -19,7 +19,7 @@ get_header();
 
 <?php esc_html_e(
 'Page Not Found',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h2>
@@ -29,7 +29,7 @@ get_header();
 
 <?php esc_html_e(
 'The page you are looking for does not exist.',
-'serenity'
+'na-serenity'
 ); ?>
 
 </p>
@@ -42,7 +42,7 @@ home_url('/')
 
 <?php esc_html_e(
 'Return Home',
-'serenity'
+'na-serenity'
 ); ?>
 
 </a>

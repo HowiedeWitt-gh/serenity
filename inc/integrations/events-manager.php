@@ -2,7 +2,7 @@
 /**
  * Events Manager integration.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Check Events Manager availability.
  */
-function serenity_events_manager_active() {
+function na_serenity_events_manager_active() {
 
 	return class_exists( 'EM_Events' );
 
@@ -21,10 +21,10 @@ function serenity_events_manager_active() {
 /**
  * Add Events Manager compatibility.
  */
-function serenity_events_manager_setup() {
+function na_serenity_events_manager_setup() {
 
 
-	if ( ! serenity_events_manager_active() ) {
+	if ( ! na_serenity_events_manager_active() ) {
 
 		return;
 
@@ -33,7 +33,7 @@ function serenity_events_manager_setup() {
 
 	add_filter(
 		'em_event_output_placeholder',
-		'serenity_event_placeholder',
+		'na_serenity_event_placeholder',
 		10,
 		3
 	);
@@ -43,7 +43,7 @@ function serenity_events_manager_setup() {
 
 add_action(
 	'after_setup_theme',
-	'serenity_events_manager_setup'
+	'na_serenity_events_manager_setup'
 );
 
 
@@ -51,7 +51,7 @@ add_action(
 /**
  * Custom event placeholders.
  */
-function serenity_event_placeholder(
+function na_serenity_event_placeholder(
 	$output,
 	$placeholder,
 	$EM_Event

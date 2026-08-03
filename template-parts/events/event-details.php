@@ -2,7 +2,7 @@
 /**
  * Event details.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 ?>
@@ -14,7 +14,7 @@
 
 <?php esc_html_e(
 	'Meeting Details',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>

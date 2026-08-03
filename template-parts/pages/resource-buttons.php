@@ -16,7 +16,7 @@ home_url('/events')
 
 <?php esc_html_e(
 'Find a Meeting',
-'serenity'
+'na-serenity'
 ); ?>
 
 </a>
@@ -30,7 +30,7 @@ home_url('/contact')
 
 <?php esc_html_e(
 'Contact Us',
-'serenity'
+'na-serenity'
 ); ?>
 
 </a>

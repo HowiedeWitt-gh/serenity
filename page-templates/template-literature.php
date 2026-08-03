@@ -15,7 +15,7 @@ get_header();
 
 <?php esc_html_e(
 'Literature Library',
-'serenity'
+'na-serenity'
 ); ?>
 
 </h1>

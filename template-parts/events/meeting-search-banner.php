@@ -16,7 +16,7 @@
 
 <?php esc_html_e(
 	'Find a Meeting',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h2>
@@ -26,7 +26,7 @@
 
 <?php esc_html_e(
 	'Meetings are available throughout the Outaouais region. Everyone is welcome.',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </p>

@@ -2,7 +2,7 @@
 /**
  * Homepage template.
  *
- * @package Serenity
+ * @package NA_Serenity
  */
 
 get_header();

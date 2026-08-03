@@ -11,7 +11,7 @@ get_header();
 
 <?php esc_html_e(
 	'Announcements',
-	'serenity'
+	'na-serenity'
 ); ?>
 
 </h1>

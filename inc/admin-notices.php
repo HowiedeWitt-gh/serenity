@@ -6,7 +6,7 @@
 defined('ABSPATH') || exit;
 
 
-function serenity_plugin_notice(){
+function na_serenity_plugin_notice(){
 
 
 	if(
@@ -66,7 +66,7 @@ function serenity_plugin_notice(){
 
 	echo esc_html__(
 		'Recommended plugins for NA Outaouais:',
-		'serenity'
+		'na-serenity'
 	);
 
 	echo ' ';
@@ -84,5 +84,5 @@ function serenity_plugin_notice(){
 
 add_action(
 	'admin_notices',
-	'serenity_plugin_notice'
+	'na_serenity_plugin_notice'
 );
